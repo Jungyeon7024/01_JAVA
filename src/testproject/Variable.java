@@ -29,6 +29,29 @@ public class Variable {
          int dy = 17;
          System.out.println(name+mth+dy);
          
+         int a = 10;
+         int b = 20;
+         System.out.println(a + b);
+         System.out.println(a * b);
+         // 변수명 안에 숫자를 넣고 더하기 빼기 곱하기 나누기 넣기
+         int number5 = 4;
+         int number6 = 2;
+         // 1. 더하기 (+)
+         System.out.println("더하기");
+         System.out.println(number5 + number6);
+         // 2. 빼기 (-)
+         System.out.println("빼기");
+         System.out.println(number5 - number5);
+         // 3. 곱하기 (*)
+         System.out.println("곱하기");
+         System.out.println(number5 * number6);
+         // 4. 나누기 (/)
+         System.out.println("나누기(/) : ");
+         System.out.println(number6 / number5);
+         
+         // 5. 나머지 (%)
+         System.out.println("나머지(%) : ");
+         System.out.println(number6 % number5);
 	
 // 자신의 이름과 월 일을 담은 변수를 만들자
 // 자료형 변수명;
